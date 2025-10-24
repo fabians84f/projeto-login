@@ -8,7 +8,7 @@
 }
 
 body, html {
-   background-color:#3b614b;
+   background-color:#3bb490;
    height: 100vh;
    width: 100vw;
    background-image: linear-gradient(to top, #cc9837ec, #3b614b);
@@ -38,7 +38,7 @@ section#login {
 }
 
 section#login > div#imagem {
-   background: #5f2c82 url(../imagens/pexels-oskar-gross-1074333632-34302381.jpg) no-repeat;
+   background: #79cfc8 url(../imagens/pexels-oskar-gross-1074333632-34302381.jpg) no-repeat;
    background-size: cover;
    height: 200px;
 }
@@ -55,4 +55,56 @@ div#formulario > h1 {
 
 div#formulario > p {
    font-size: 0.8em;
+}
+
+form > div.campo {
+   background-color:#5b9773;
+   display: block;
+   width: 98%;
+   height: 40px;
+   border-radius: 5px;
+   margin: 5px;
+   border: 1px solid black;
+}
+
+div.campo > label {
+   display: none;
+}
+
+form > input[type=submit] {
+   display: block;
+   font-size: 1em;
+   width: 100%;
+   height: 35px;
+   background-color:#eca41fec;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   border: 1px solid black;
+}
+
+form > input[type=submit]:hover {
+   background-color: #ac8030ec;
+}
+
+form > a.botao {
+   display: block;
+   text-align: center;
+   font-size: 1em;
+   width: 100%;
+   height: 35px;
+   padding-top: 5px;
+   margin-top: 5px;
+   background-color: #eca41fec;
+   border-radius: 7px;
+   border: 1px solid black;
+   color: black;
+}
+
+form > a.botao:hover {
+   background-color: #cc9837ec;
+}
+
+form > a.botao > span {
+  font-size: 1em;
 }
